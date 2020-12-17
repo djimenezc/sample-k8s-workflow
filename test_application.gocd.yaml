@@ -21,7 +21,7 @@
          jobs:
            test_app_image:
              timeout: 0
-             elastic_profile_id: demo-app
+             elastic_profile_id: sample-k8s-workflow
              tasks:
              - fetch:
                  artifact_id: bulletin-board
